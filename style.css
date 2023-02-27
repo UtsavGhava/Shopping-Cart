@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin: 5px;
+    width: 99vw;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#chooseProduct{
+    margin: 5px;
+    /* background-color: green; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#add{
+    width: 10%;
+    height: 2%;
+    margin: 15px;
+    padding: 2px;
+}
+
+.productAndPrise{
+    margin: 15px;
+}
+
+#clientDetail{
+    margin-top: 30px ;
+}
+
+#btnContinue{
+    margin-top: 20px;
+    padding: 4px;
+}
+
+#productDetail{
+    margin-top: 30px;
+}
+
+.otherButtun{
+    margin-top: 30px ;
+    
+}
+
+#first{
+    margin-right: 20px;
+    width: 50px;
+    height: 20px;
+}
+#last{
+    margin-right: 20px;
+    width: 50px;
+    height: 20px;
+}
+#previous{
+    margin-right: 30px;
+    width: 70px;
+    height: 20px;
+}
+#next{
+    margin-right: 20px;
+    width: 50px;
+    height: 20px;
+}
+.goToPage{
+    margin-bottom: 20px;
+}
+#conform{
+    padding: 3px;
+}

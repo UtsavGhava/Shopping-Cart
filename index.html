@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+        <div id="chooseProduct">
+            <div class="productAndPrise">
+            <label for="">Product And Prise :</label>
+            <select name="product" id="listProduct">
+                <option value="" class="productName">Buy Product For Your Office - Prize</option>
+                <option value="Mouse" id="mouse">Mouse - 100RS.</option>
+                <option value="Keyboard" id="keyboard">Keyboard - 200RS.</option>
+                <option value="Desktop" id="desktop">Desktop - 5000RS.</option>
+                <option value="CPU" id="cpu">CPU - 10000RS.</option>
+                <option value="Chair" id="chair">Chair - 3000RS.</option>
+            </select>
+        </div>
+            <br>
+            <div class="qualityNumber">
+            <label for="">Quantity :</label>
+            <input type="number" placeholder="Please Enter Quantity" id="quantity">
+        </div>
+            <br>
+
+            <button id="add" >Add To Cart</button>
+
+
+        </div>
+
+        <hr>
+
+        <div id="clientDetail">
+            <form action="/">
+                <div class="name">
+                <label for="name">First Name</label>
+                <input type="text" placeholder="Enter Your Full Name" id="fullName">
+            </div>
+                <br>
+                <div class="company">
+                <label for="company">Company's Name</label>
+                <input type="text" placeholder="Enter Your Company Name" id="companyName">
+            </div>
+                <br>
+                <div class="adress">
+                <label for="address">Enetr Your address</label>
+                <input type="text" placeholder="Enter Your Address" id="address">
+            </div>
+                <br>
+                <div class="mobile">
+                <label for="number">Mobile Number</label>
+                <input type="text" placeholder="Enter Your Mobile Number" id="mobileNumber">
+            </div>
+                <br>
+                <div class="email">
+                <label for="email">Email Address</label>
+                <input type="text" placeholder="Enter Your Email Address" id="email">
+            </div>
+                <br>
+
+                
+            </form>
+            <button id="btnContinue">Continue</button>
+        </div>
+
+        <hr>
+
+        <div id="productDetail">
+            
+        </div>
+
+        <div id="button">
+            <button id="conform">Conform</button>
+            <br>
+            <div class="otherButtun">
+            <button id="first">First</button>
+            <button id="previous">Previous</button>
+            <button id="next">Next</button>
+            <button id="last">Last</button>
+        </div>
+            <br>
+            <div class="goToPage">
+            <label for="page">Which Page You Want To Go :</label>
+            <input type="text" placeholder="Enter Page Number" id="pageNumber">
+            <button id="go">Go..</button>
+        </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
